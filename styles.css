@@ -1,0 +1,21 @@
+@import url("css/index.css");
+@import url("css/articles.css");
+@import url("css/brazilian_places.css");
+@import url("css/about_us.css");
+@import url("css/testimonials.css");
+@import url("css/contato.css");
+
+
+:root {
+    
+    --cor-de-fundo: #F8F9FA;
+    --azul: #005F87;
+    --preto:#000000;
+    --cinza:#6C757D;
+    --amarelo:#FFD700;
+    --verde:#009C3B;
+    --vermelho:#CC092F;
+
+    --fonte-h1:"Poppins", serif; /* 600 */
+    --fonte-txt: "Lato", serif;  /*300 or 400 */
+}

@@ -1,0 +1,78 @@
+/* ABOUT US TITTLE*/
+
+body {
+  overflow-y: auto;
+}
+
+.tittle_about_us {
+    color: var(--amarelo);
+    font-size: 1em;
+    text-align: center;
+}
+
+.ml9 {
+    position: relative;
+    font-weight: 200;
+    font-size: 4em;
+}
+  
+.ml9 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+}
+  
+  .ml9 .letter {
+    transform-origin: 50% 100%;
+    display: inline-block;
+    line-height: 1em;
+}
+
+  /* PHOTOS / QUESTIONS*/
+
+.photos {
+    display: flex;
+    justify-content: center;
+
+}
+.photos > .main_photo {
+  width: 250px;
+  border-radius: 15px;
+
+}
+
+.about_us_txt {
+  margin: 1.5em 1em;
+
+}
+
+
+.about_us_txt p {
+  text-align: justify;
+  margin: 1em;
+  line-height: 1.6;
+}
+
+/* Privacy Policy */
+
+.main_sec {
+
+  margin: 1em;
+  padding: 2em 1.5em;
+}
+
+ul {
+  list-style:square ;
+  padding-left: 1em;
+}
+
+.list_pp  h3 {
+padding: 1em 0;
+}
+
+.list_pp {
+  margin-bottom: 1em;
+}

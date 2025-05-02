@@ -1,0 +1,24 @@
+h3, h4 {
+    font-family: var(--fonte-h1);
+
+}
+h4 {
+    font-size: 1.3em;
+}
+
+p {
+    font-family: var(--fonte-txt);
+    padding: 0.5em 0 1em 0;
+}
+
+.fileUpload button {
+    color: var(--cor-de-fundo);
+}
+
+/*FOOTER*/
+
+.col_links {
+    padding: 1em 2em;
+    text-align:left;
+    text-align: center;
+}

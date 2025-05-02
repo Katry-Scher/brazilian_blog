@@ -1,0 +1,87 @@
+ /*TITTLE*/
+
+.txt_call {
+    margin: 1.5em 1em;
+    padding: 1em;
+    text-align: center;
+    justify-content: center;
+    color: #2a4365;
+    font-style: italic;
+    font-family: var(--fonte-txt);
+
+}
+
+.txt_call h2 {
+    margin-bottom: 1.5em;
+    text-align: center;
+}
+
+
+/* Articles Grid */
+
+.depoiments {
+    margin: 1.5em 1em;
+}
+
+
+.articles_grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two-column layout */
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 0.5em;
+}
+
+
+.articles_cont {
+    background: #fff;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    
+}
+
+
+
+.articles_cont img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+
+.articles_cont h3 {
+    font-size: 1.1em;
+    line-height: 1.2;
+    margin: 0.5em 0;
+    color: var(--preto);
+}
+
+
+.ler_mais {
+    font-size: 0.9em;
+    font-style: italic;
+    color: #666;
+}
+
+
+.r_m {
+    text-decoration: none;
+    font-size: 0.9em;
+    margin-top: 1em; 
+    display: inline-block;
+}
+
+.articles_cont a {
+    text-decoration: none; 
+    color: var(--preto);
+    font-weight: 400;
+}
+
+.articles_cont a:hover {
+    text-decoration: none; 
+}
