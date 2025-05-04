@@ -36,43 +36,25 @@
 
 
 
-  /*TITTLE*/
+  /*MAPA*/
+  .map_sections {
+    margin: 1.5em 1em;
+  }
 
-  .carrossel_seg {
-    margin: 1em 1em;
+  .map_sections h3 {
+    margin-bottom: 0.5em;
+  }
+
+  #map-restaurants,
+  #map-pubs,
+  #map-shops,
+  #map-salons,
+  #map-churches  {
+    height: 300px;
     width: 100%;
+    margin-bottom: 2rem;
   }
-  
-  .carrossel_seg h1 {
-    text-align: left; 
-    font-size: 1.3em;
-    margin-bottom: 0.5em; 
-    margin-top: 1em;
-  }
-  
-  .restaurantes_logo {
-    display: flex;
-    gap: 6px;
-    overflow-x: auto; /* Mantém a rolagem horizontal apenas nesta div */
-    white-space: nowrap;
-    scrollbar-width: none;
-    -ms-overflow-style: none;
-    
-  }
-  
-  .restaurantes_logo::-webkit-scrollbar {
-    display: none;
-  }
-  
-  .restaurantes_logo a {
-    text-decoration: none;
-  }
-  
-  .restaurantes_logo img {
-    width: 110px;
-    border-radius: 50%;
-  }
-  
+ 
 
   /*MORE PLACES*/
 

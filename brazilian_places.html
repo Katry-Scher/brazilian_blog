@@ -5,11 +5,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Articles</title>
         <link rel="stylesheet" href="styles.css">
+        <script src="map.js" defer></script>
     
         <!--JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
         <script src="header.js" defer></script>
         <script src="text_wrapper.js" defer></script>
+
+        <!--MAP-->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+        <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
      
         
         <!--FONTS-->
@@ -78,62 +83,36 @@
 
         </section>
 
-        <section class="carrossel_seg">
-
-            <h1>Restaurantes</h1>
-            <div class="restaurantes_logo">
-                <a href="https://mrt-sushi.com/"><img src="img/mr_sushi.jpg" alt=""></a>
-                <a href="https://www.touro.co.uk/"><img src="img/touro_rest.png" alt=""></a>
-                <a href="https://www.instagram.com/goianaobrazilianuk/?hl=en"><img src="img/brazilian_rest.jpg" alt=""></a>
-                <a href="https://www.instagram.com/barrilpizzariauk/?hl=en"><img src="img/barril_pizza.jpg" alt=""></a>
-                <a href="https://www.instagram.com/cantinho_do_braasil/?hl=en"><img src="img/catinho_bazil.jpg" alt=""></a>
-                
+        <section class="map_sections">
+            <div class="segmento">
+                <h3>Restaurants</h3>
+                <p>Discover the most loved Brazilian flavors in London — from sushi with a twist to traditional dishes that feel like home.</p>
+                <div id="map-restaurants"></div>
             </div>
 
-            <h1>Pubs</h1>
-            <div class="restaurantes_logo">
-                <a href="https://www.instagram.com/recantokings/?hl=en"><img src="img/recanto_kings.jpg" alt=""></a>
-                <a href="https://www.instagram.com/moodsertanejouk/?hl=en"><img src="img/pub_mood.jpg" alt=""></a>
-                <a href="https://www.instagram.com/biras_house_uk/?hl=en"><img src="img/biras_brasil.jpg" alt=""></a>
-                <a href="https://www.instagram.com/clubeossemlimites/?hl=en"><img src="img/sem_limite.jpg" alt=""></a>
-                <a href="https://www.instagram.com/avenidabrasilcroydon1/?hl=en"><img src="img/avenida_brasil.jpg" alt=""></a>
-                
+            <div class="segmento">
+                <h3>🥂 Pubs</h3>
+                <p>Feel the Brazilian vibe after hours — enjoy live music, cold drinks, and great company in the best Brazilian pubs around London.</p>
+                <div id="map-pubs"></div>
             </div>
 
-            <h1>Brazilian Shops</h1>
-            <div class="restaurantes_logo">
-                <a href="https://www.abrasileira.co.uk/"><img src="img/a_brasileira.jpg" alt=""></a>
-                <a href="https://www.instagram.com/shopbrazil.uk/?hl=en"><img src="img/shop_brazil.jpg" alt=""></a>
-                <a href="https://www.instagram.com/costasminimarket/?hl=en"><img src="img/costas_brazil.jpg" alt=""></a>
-                <a href="https://www.instagram.com/xodobrazil/?hl=en"><img src="img/xodo_brasil.jpg" alt=""></a>
-                <a href="https://www.instagram.com/braseef/?hl=en"><img src="img/bras_chef.jpg" alt=""></a>
-                
+            <div class="segmento">
+                <h3>🛒 Brazilian Markets</h3>
+                <p>From pão de queijo to guaraná, find the taste of home at your local Brazilian market — stocked with flavors that bring comfort.</p>
+                <div id="map-shops"></div>
             </div>
 
-            <h1>Brazilian Beauty Salons</h1>
-            <div class="restaurantes_logo">
-                <a href="https://www.instagram.com/studiotatianekrul/?hl=en"><img src="img/tati_salon.jpg" alt=""></a>
-                <a href="https://www.instagram.com/bydharaaraujo/?hl=en"><img src="img/araujo_salon.jpg" alt=""></a>
-                <a href="https://www.instagram.com/studiowittaaesthetics/?hl=en"><img src="img/witt_salon.jpg" alt=""></a>
-                <a href="https://www.instagram.com/taiturellacosmetician/?hl=en"><img src="img/skin_salon.jpg" alt=""></a>
-                <a href="https://www.instagram.com/carolfortunatobeauty/?hl=en"><img src="img/carol_salon.jpg" alt=""></a>
-                
+            <div class="segmento">
+                <h3>💇‍♀️ Salons</h3>
+                <p>Pamper yourself with the Brazilian touch — expert stylists and beauty professionals bringing the latest trends and care.</p>
+                <div id="map-salons"></div>
             </div>
 
-            <h1>Brazilian Churches</h1>
-            <div class="restaurantes_logo">
-                <a href="https://www.instagram.com/adbelem_uk/?hl=en"><img src="img/adbelem.jpg" alt=""></a>
-                <a href="https://www.instagram.com/londonrevivalchurch/?hl=en"><img src="img/revival_chuch.jpg" alt=""></a>
-                <a href="https://www.instagram.com/wordoflifechurchlondon/?hl=en"><img src="img/word_church.jpg" alt=""></a>
-                <a href="https://www.instagram.com/adoraichurchuk/?hl=en"><img src="img/adorai_church.jpg" alt=""></a>
-                <a href="https://www.instagram.com/admission.londres/?hl=en"><img src="img/missoes_church.jpg" alt=""></a>
-                
+            <div class="segmento">
+                <h3>⛪ Churches</h3>
+                <p>Stay spiritually connected — discover warm, welcoming Brazilian churches that offer community, support, and faith.</p>
+                <div id="map-churches"></div>
             </div>
-
-
-
-
-                          
         </section>
 
         <section class="tooltip-container_section">

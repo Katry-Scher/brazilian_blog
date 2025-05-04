@@ -1,0 +1,211 @@
+{
+    "restaurants": [
+      {
+        "name": "Mr. Sushi",
+        "image": "img/mr_sushi.jpg",
+        "url": "https://mrt-sushi.com/",
+        "lat":51.52962823871127, 
+        "lng":-0.2838072724917731
+        
+      },
+      {
+        "name": "Touro",
+        "image": "img/touro_rest.png",
+        "url": "https://www.touro.co.uk/",
+        "lat":51.53275004428661, 
+        "lng":-0.2213919349336617
+      },
+      {
+        "name": "Goianao Brazilian",
+        "image": "img/brazilian_rest.jpg",
+        "url": "https://www.instagram.com/goianaobrazilianuk/?hl=en",
+        "lat":51.431702160343406, 
+        "lng":-0.17533686138345195
+      },
+      {
+        "name": "Barril Pizzaria",
+        "image": "img/barril_pizza.jpg",
+        "url": "https://www.instagram.com/barrilpizzariauk/?hl=en",
+        "lat":51.53399510171979, 
+        "lng":-0.24116267301641506
+      },
+      {
+        "name": "Touro",
+        "image": "img/touro_rest.png",
+        "url": "https://www.touro.co.uk/",
+        "lat":51.51525666290812, 
+        "lng":-0.12367814013786092 
+      },
+      {
+        "name": "Touro",
+        "image": "img/touro_rest.png",
+        "url": "https://www.touro.co.uk/",
+        "lat":51.42315785969691, 
+        "lng":-0.18199925683098736 
+      },
+      {
+        "name": "Preto",
+        "image": "img/preto_rest.jpg",
+        "url": "https://www.preto.co.uk/restaurant/queensway?utm_source=google-maps&utm_medium=queensway",
+        "lat":51.51802482885866, 
+        "lng":-0.21275370060399598 
+      },
+      {
+        "name": "Preto",
+        "image": "img/preto_rest.jpg",
+        "url": "https://www.preto.co.uk/restaurant/queensway?utm_source=google-maps&utm_medium=queensway",
+        "lat":51.470144571731716, 
+        "lng":-0.20245401798688095 
+      },
+      {
+        "name": "Preto",
+        "image": "img/preto_rest.jpg",
+        "url": "https://www.preto.co.uk/restaurant/queensway?utm_source=google-maps&utm_medium=queensway",
+        "lat":51.496442188660254, 
+        "lng":-0.12554972111242188
+      },
+      {
+        "name": "Preto",
+        "image": "img/preto_rest.jpg",
+        "url": "https://www.preto.co.uk/restaurant/queensway?utm_source=google-maps&utm_medium=queensway",
+        "lat":51.51567474035658, 
+        "lng":-0.11559336124921064
+      }
+    ],
+    "pubs": [
+      {
+        "name": "Recanto Kings",
+        "image": "img/recanto_kings.jpg",
+        "url": "https://www.instagram.com/recantokings/?hl=en",
+        "lat":51.55021850193196, 
+        "lng":-0.24147429206443774
+      },
+      {
+        "name": "Mood Sertanejo",
+        "image": "img/pub_mood.jpg",
+        "url": "https://www.instagram.com/moodsertanejouk/?hl=en",
+        "lat":51.46291064113444, 
+        "lng":-0.17010890620882682
+      },
+      {
+        "name": "Bira's House",
+        "image": "img/biras_brasil.jpg",
+        "url": "https://www.instagram.com/biras_house_uk/?hl=en",
+        "lat":51.117391697890504, 
+        "lng":-0.16513667489505748
+      },
+      
+      {
+        "name": "Avenida Brasil",
+        "image": "img/avenida_brasil.jpg",
+        "url": "https://www.instagram.com/avenidabrasilcroydon1/?hl=en",
+        "lat": 51.47477794508037, 
+        "lng":-0.12443796931527225
+      }
+    ],
+    "shops": [
+      {
+        "name": "A Brasileira",
+        "image": "img/a_brasileira.jpg",
+        "url": "https://www.abrasileira.co.uk/",
+        "lat":51.43991416358374, 
+        "lng":-0.10597862090748224
+      },
+      {
+        "name": "Shop Brazil UK",
+        "image": "img/shop_brazil.jpg",
+        "url": "https://www.instagram.com/shopbrazil.uk/?hl=en",
+        "lat": 51.46132583380793,
+        "lng":-0.005401399028602694
+      },
+      {
+        "name": "Xodó Brazil",
+        "image": "img/xodo_brasil.jpg",
+        "url": "https://www.instagram.com/xodobrazil/?hl=en",
+        "lat":51.55301881163051, 
+        "lng":-0.21073147672001447
+      },
+      {
+        "name": "BrasChef",
+        "image": "img/bras_chef.jpg",
+        "url": "https://www.instagram.com/braseef/?hl=en",
+        "lat":51.586818262276516, 
+        "lng":-0.09562801666846624
+      }
+    ],
+    "beauty_salons": [
+      {
+        "name": "Studio Tatiane Krul",
+        "image": "img/tati_salon.jpg",
+        "url": "https://www.instagram.com/studiotatianekrul/?hl=en",
+        "lat":51.53387650203273, 
+        "lng":-0.2464067153442765
+      },
+      {
+        "name": "By Dhara Araujo",
+        "image": "img/araujo_salon.jpg",
+        "url": "https://www.instagram.com/bydharaaraujo/?hl=en",
+        "lat":51.463762699317996, 
+        "lng":-0.11444153250748425
+      },
+      {
+        "name": "Witt Aesthetics",
+        "image": "img/witt_salon.jpg",
+        "url": "https://www.instagram.com/studiowittaaesthetics/?hl=en",
+        "lat":51.38246147770565, 
+        "lng":-0.2850469883701931
+      },
+      {
+        "name": "Taiturella Cosmetician",
+        "image": "img/skin_salon.jpg",
+        "url": "https://www.instagram.com/taiturellacosmetician/?hl=en",
+        "lat":51.506721839068355, 
+        "lng":0.0743822576703579
+      },
+      {
+        "name": "Carol Fortunato Beauty",
+        "image": "img/carol_salon.jpg",
+        "url": "https://www.instagram.com/carolfortunatobeauty/?hl=en",
+        "lat": 51.54896863142421, 
+        "lng":0.039920822915231656
+      }
+    ],
+    "churches": [
+      {
+        "name": "AD Belem UK",
+        "image": "img/adbelem.jpg",
+        "url": "https://www.instagram.com/adbelem_uk/?hl=en",
+        "lat":51.54965591837881, 
+        "lng":-0.2388500902120978
+      },
+      {
+        "name": "London Revival Church",
+        "image": "img/revival_chuch.jpg",
+        "url": "https://www.instagram.com/londonrevivalchurch/?hl=en",
+        "lat":51.55587278861295, 
+        "lng":-0.31746711741531886
+      },
+      {
+        "name": "Word of Life Church",
+        "image": "img/word_church.jpg",
+        "url": "https://www.instagram.com/wordoflifechurchlondon/?hl=en",
+        "lat":51.592690930624876, 
+        "lng":-0.27573460278778505
+      },
+      {
+        "name": "Adorai Church UK",
+        "image": "img/adorai_church.jpg",
+        "url": "https://www.instagram.com/adoraichurchuk/?hl=en",
+        "lat":52.5018846995651, 
+        "lng":-1.87262815575816
+      },
+      {
+        "name": "Ad Missões Londres",
+        "image": "img/missoes_church.jpg",
+        "url": "https://www.instagram.com/admission.londres/?hl=en",
+        "lat":51.448837343176315, 
+        "lng":-0.01495597591858597
+      }
+    ]
+  }
+  
